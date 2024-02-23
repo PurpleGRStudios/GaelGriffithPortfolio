@@ -21,6 +21,14 @@ body {
   background-image: url(img/Space/Thumbnail.png);
 }
 
+#CoinCollector{
+  background-image: url(img/CoinCollectorGame/CoinCollectorBackground.png);
+}
+
+#Blender{
+  background-image: url(img/Blender/JumpingR6.gif);
+}
+
 #gs{
   background-image: url(img/GSthumb.png);
 }

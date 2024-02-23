@@ -8,7 +8,7 @@
         <title>Gael's Portfolio</title>
     </head>
 
-    <body id="space">
+    <body id="CoinCollector">
         <header class="navbar">
             <nav>
                 <div class="name">
@@ -21,13 +21,13 @@
                     <button class="nav-items" onclick="window.location.href='index.html'">Home</button>
                     <button class="nav-items" onclick="window.location.href='index.html#services'">Projects</button>
                     <button class="nav-items" onclick="window.location.href='#contact'">Contact</button>
-                    <a class="nav-items" href="img/JM_CV.pdf" target="_blank">CV</a>
+                    <a class="nav-items" href="pdf/Gael Griffith CV.pdf" target="_blank">CV</a>
                 </div>
             </nav>
         </header>
         <div class="container">
             <div class="project-header">
-                <h1>Expanding Space</h1>
+                <h1>Coin Collector</h1>
             </div>
 
             <div class="project-details">
@@ -97,7 +97,7 @@
 
                             <div class="project-images">
                                 <p class="image-title">Interactable Bridge</p>
-                                <img src="img/CoinCollectorGame/CheckBridgeBluePrint_3.png"
+                                <img src="img/CoinCollectorGame/BridgeCheck-ezgif.com-video-to-gif-converter.gif"
                                     alt="Image 1">
                                 <p class="project-text">
                                     In the snippet above I created a blueprint which
@@ -113,20 +113,19 @@
 
                             <h2 class="project-text">Development</h2>
                             <p class="project-text">
-                                After making an Weapon Pickup Script I thought about
-                                what would be needed to make the gun useful. So I started making
-                                a healthbar system for the game for both the enemy and player.
+                                After creating the coin object and blueprint to pickup the coins
+                                I realize I needed a way to count all the coins. So I started working on
+                                a total coins blueprint.
                             </p>
 
                             <div class="project-images">
                                 <p class="image-title">Collectable Coins</p>
-                                <img src="img/Space/Health.png"
+                                <img src="img/CoinCollectorGame/CoinsObject.gif"
                                     alt="Image 1">
                                 <p class="project-text">
-                                    Here you can see the player jumping from
-                                    wall to wall. <br>
-                                    I've also added the possibility to run and
-                                    slide in case the player engages combat.
+                                    Here you can see the coins I made that can be collected.
+                                    I gave it a fixed rotation which also highlights that the
+                                    coins can be collected.<br>
                                 </p>
                             </div>
 
@@ -142,11 +141,13 @@
                                 </p>
 
                                 <p class="image-title">My Test Scene:</p>
-                                <img src="img/BOSpace/EnemyAI.gif" alt="Image 1">
+                                <img src="img/CoinCollectorGame/BoxTraceCheck-ezgif.com-video-to-gif-converter.gif" alt="Image 1">
                                 <p class="project-text">
                                     Here i created a scene to propperly test out
                                     simple things such as Bridge interactions, coin collecting
-                                    and hitbox testing around the third person character<br>
+                                    and hitbox testing around the third person character. In the clip shown
+                                    here I only focused on testing the BoxTrace around my ThirdPersonCharacter
+                                    which as you can see turns green when collision is true.<br>
                                     
                                 </p>
                             </div>
@@ -158,8 +159,8 @@
                                 following Attack Function
                             </p>
                             <div class="project-images">
-                                <p class="image-title">Snippet of the EnemyAI:</p>
-                                <img src="img/BOSpace/AttackSnippet.png"
+                                <p class="image-title">Coin collection in action</p>
+                                <img src="img/CoinCollectorGame/CoinCollection.gif"
                                     alt="Image 1">
                                 <p class="project-text">
                                     The Enemy checks every frame wether the
@@ -196,8 +197,10 @@
                                 <p class="project-text">
                                     Here the player is picking up coins.<br>
                                     The player picks up<br>
-                                    In the end the player dies eitherway and
-                                    respawns.
+                                    a decent amount of coins. As you can see each coin
+                                    picked up gets counted next to the total coins.
+                                    
+                                    
                                 </p>
                             </div>
 
@@ -206,7 +209,7 @@
                 </div>
 
                 <footer id="Contact">
-                    <p>Contact: <a href="mailto:Jahvam_2005@outlook.com">JahvaM@outlook.com</a></p>
+                    <p>Contact: <a href="mailto:gaelgriffith2003@gmail.com">gaelgriffith2003@gmail.com</a></p>
                 </footer>
 
             </body>
