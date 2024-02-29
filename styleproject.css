@@ -29,6 +29,10 @@ body {
   background-image: url(img/Blender/JumpingR6.gif);
 }
 
+#Elevator{
+  background-image: url(img/Elevator/Going\ up.jpg);
+}
+
 #gs{
   background-image: url(img/GSthumb.png);
 }
