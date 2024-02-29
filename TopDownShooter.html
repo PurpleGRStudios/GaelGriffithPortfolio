@@ -8,7 +8,7 @@
         <title>Gael's Portfolio</title>
     </head>
 
-    <body id="Elevator">
+    <body id="CoinCollector">
         <header class="navbar">
             <nav>
                 <div class="name">
@@ -27,7 +27,7 @@
         </header>
         <div class="container">
             <div class="project-header">
-                <h1>Elevator</h1>
+                <h1>Coin Collector</h1>
             </div>
 
             <div class="project-details">
@@ -35,7 +35,7 @@
                     <p class="project-text">
                         Project Status: Finished<br>
                         Project Type: Solo Project<br>
-                        Project Duration: 1 day <br>
+                        Project Duration: 1 week <br>
                         Software Used: Unreal Engine <br>
                         Languages Used: Blueprints (c++)<br>
                         Primary Role(s): UI designer/Programmer, Git master<br>
@@ -44,12 +44,17 @@
                 </div>
 
                 <div class="project-description">
-                    <h2>About Elevator</h2>
+                    <h2>About Coin Collector</h2>
                     <p>
-                        This is probably one of the fastest projects I worked on ever. I created this elevator
-                        blueprint and object in less then a day just because I needed too have some type of transportation inside of buildings
-                        rather then using the stairs. This elevator will also aid in future projects and will be improved throughout
-                        development and as I progress in Unreal Engine.
+                        "Coin Collector" was a solo project to develop
+                        an engaging game that would inspire space travel and
+                        astronomy interest amongst a younger audience.
+                        It marked the first partnership between Game Developers
+                        and Game Artists, with each group comprising two
+                        developers and four artists.
+                        But our group had an extra dev who joined the project at
+                        a later date. This was also the second time we worked
+                        with sprints if i recall correctly.
                         <p>
 
                             <a
@@ -57,9 +62,10 @@
 
                             <h2 class="subtitle">My Features</h2>
                             <ul>
-                                <li>Elevator Buttons</li>
-                                <li>Elevator Floor Check</li>
-                                <li>Automatic Doors Elevator</li>
+                                <li>Interactable Bridge</li>
+                                <li>Collectable Coins</li>
+                                <li>Win Condition</li>
+                                <li>Coin Counter</li>
                             </ul>
 
                             <h2 class="subtitle">Software Used</h2>
@@ -90,17 +96,14 @@
                             </p>
 
                             <div class="project-images">
-                                <p class="image-title">Elevator Buttons</p>
-                                <img src="img/Elevator/Going up.jpg"
+                                <p class="image-title">Interactable Bridge</p>
+                                <img src="img/CoinCollectorGame/BridgeCheck-ezgif.com-video-to-gif-converter.gif"
                                     alt="Image 1">
                                 <p class="project-text">
                                     In the snippet above I created a blueprint which
-                                    checks if all the floors are ingame before you can interact with the Elevator.
-                                    If this is true each number you press the elevator will go too. It will also
-                                    skip numbers if those aren't in the way of a higher number. Like pressing floor 4 when
-                                    you are on floor 1 it will instantly go there. unless someone else has pressed any other number
-                                    between 1 and 4 it will go to the highest floor pressed.
-                                    
+                                    checks if all the coins are collected before you can interact with the bridge.
+                                    If this is true the bridge will open up and play a little sound, if this isn't 
+                                    true the bridge will not open.
                                     <br>
                                 </p>
                             </div>
@@ -110,16 +113,14 @@
 
                             <h2 class="project-text">Development</h2>
                             <p class="project-text">
-                               Biggest issue I was noticing was that each time I pressed a number and error would pop up.
-                               Almost like the game couldn't find the floor numbers. So I created an array were it could store all
-                               the numbers that are currently ingame. Problem is it doesn't automatically check the floor numbers.
-                               It only checks the manaully assigned floor numbers resulting in errors when you press an unassigned floor number.
-                                
+                                After creating the coin object and blueprint to pickup the coins
+                                I realize I needed a way to count all the coins. So I started working on
+                                a total coins blueprint.
                             </p>
 
                             <div class="project-images">
-                                <p class="image-title">Elevator Floor Check</p>
-                                <img src="img/Elevator/Going up.jpg"
+                                <p class="image-title">Collectable Coins</p>
+                                <img src="img/CoinCollectorGame/CoinsObject.gif"
                                     alt="Image 1">
                                 <p class="project-text">
                                     Here you can see the coins I made that can be collected.
@@ -129,8 +130,8 @@
                             </div>
 
                             <div class="project-images">
-                                <p class="image-title">Automatic Doors Elevator</p>
-                                <img src="img/Elevator/Going up.jpg"
+                                <p class="image-title">Coin Counter</p>
+                                <img src="img/CoinCollectorGame/CoinCounterBlueprint.png"
                                     alt="Image 1">
                                 <p class="project-text">
                                     This is the blueprint I created so I can check the amount of coins
